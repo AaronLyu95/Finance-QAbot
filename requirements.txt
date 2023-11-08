@@ -1,15 +1,13 @@
 pandas
 numpy
-auto-gptq
-torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 transformers==4.31.0
-langchain==0.0.266
+langchain
 chromadb==0.4.5
 pypdf==3.15.0
-xformers==0.0.20
-sentence_transformers=2.2.2
+xformers
 pdf2image==1.16.3
 sentence-transformers==2.2.2
+finnhub-python
 openai
 lark
 poppler-utils

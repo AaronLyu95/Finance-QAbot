@@ -18,10 +18,11 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-    name='PDF QA-BOT',
+    name='Finance QA-BOT',
     version='0.0.1',
     author='Aaron Lyu',
     author_email='aaronlvii@gmail.com',
     packages=find_packages(),
-    install_requirements=get_requirements('requirements.txt')
+    install_requires=get_requirements('requirements.txt'),
 )
+
